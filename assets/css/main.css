@@ -1,0 +1,170 @@
+.header{
+    height: 44px;
+    box-shadow: 0px 3px 5px #f3f3f3;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.header__navbar-list{
+    list-style: none;
+}
+
+.header__navbar-item,
+.header__navbar-icon{
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.header__navbar-item-link,
+.header__navbar-icon-link{
+    font-size: 1.4rem;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.title{
+    margin: 10px 0 0 30px;
+}
+
+.title-one,
+.title-icon,
+.title-two{
+    font-size: 1.2rem;
+}
+
+.title-one,
+.title-icon{
+    color: #c4c4c4;
+}
+
+.title-two{
+    color:#62a3ed;
+}
+
+h1{
+    margin: 20px 0 0 28px;
+    font-size: 3rem;
+    font-weight: 150;
+}
+
+.search-list{
+    list-style: none;
+    display: flex;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-list-item{
+    margin: 20px 15px 10px 15px;
+    font-size:1.3rem
+}
+
+.btn-add{
+    width:122px;
+    height: 35px;
+    background-color: #0f62fe;
+    color: var(--white-color);
+    border: none;
+    font-size:1.3rem;
+    margin-top: 13px;
+}
+
+table{
+    width: 100%;
+    padding-left: 25px;
+}
+
+td{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table thead th{
+    text-align: left;
+}
+
+thead {
+    background-color: #e0e0e0;
+}
+
+td,th{
+    padding: 8px;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding:  0 10px;
+    font-size: 11px
+}
+
+.record{
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+}
+
+.record-total{
+    padding: 0 20px 0px 15px;
+}
+
+.page{
+    align-items: center;
+    display: flex;
+    padding-left: 600px;
+}
+
+.page-total{
+    padding-left: 8px;
+}
+
+.page-icon{
+    display: flex;
+    margin-left:25px;
+}
+
+.page-icon-left{
+    color:#c4c4c4;
+}
+
+.page-icon-right{
+    margin-left:25px;
+}
+
+.split{
+    width: 1px;
+    height: 100%;
+    border: 0.5px solid #eeebeb;
+    margin-right: 15px;
+}
+
+.circle {
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+}
+
+.circle.circle--created {
+    background-color: #dedfe3;
+}
+
+.circle.circle--wait{
+    background-color: #efc11e;
+}
+
+.circle.circle--approved{
+    background-color: #23a245;
+}
+
+.status__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT-Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <img style="height:44px ; width:115px" src="./assets/img/logo-dat-xanh-group.jpg"
+                        alt="DATXANHGROUP">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Ngân sách năm</a>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Ngân sách tháng</a>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Báo cáo</a>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Danh mục</a>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Bản quyền</a>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-icon">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-icon">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-icon">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-regular fa-bell"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-icon">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-icon">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-solid fa-gear"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+        <!-- Container -->
+        <div class="container">
+            <div class="title">
+                <span class="title-one">Ngân sách năm</span>
+                <span class="title-icon">/</span>
+                <span class="title-two">Đăng kí ngân sách năm</span>
+            </div>
+
+            <h1>Danh sách đăng kí ngân sách năm</h1>
+
+            <div class="search">
+                <ul class="search-list">
+                    <li class="search-list-item">
+                        Năm
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+                    <li class="search-list-item">
+                        Phòng ban
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+                    <li class="search-list-item">
+                        Trạng thái
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+                    <li class="search-list-item">
+                        Trạng thái tờ trình
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+                    <li class="search-list-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                </ul>
+
+                <ul class="search-list">
+                    <li class="search-list-item">
+                        <i class="fa-solid fa-download"></i>
+                    </li>
+                    <button class="btn-add">Tạo mới +</button>
+                </ul>
+            </div>
+
+            <table cellspacing=0>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã phiếu</th>
+                        <th>Năm</th>
+                        <th>Company Code</th>
+                        <th>Phòng ban</th>
+                        <th>Người tạo</th>
+                        <th>Ngày tạo</th>
+                        <th>Trạng thái</th>
+                        <th>Trạng thái tờ trình</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>001200033352</td>
+                        <td>2023</td>
+                        <td>DTMB</td>
+                        <td>Đầu tư Miền Bắc</td>
+                        <td>quangdv26</td>
+                        <td>11/01/2023</td>
+                        <td>
+                            <div class="status__wrapper">
+                                <span class="circle circle--created"></span>
+                                <span>Mới tạo</span>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>001200033352</td>
+                        <td>2023</td>
+                        <td>DTMB</td>
+                        <td>Đầu tư Miền Bắc</td>
+                        <td>quangdv26</td>
+                        <td>11/01/2023</td>
+                        <td>
+                            <div class="status__wrapper">
+                                <span class="circle circle--wait"></span>
+                                <span>Chờ xoát xét</span>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>001200033352</td>
+                        <td>2023</td>
+                        <td>DTMB</td>
+                        <td>Đầu tư Miền Bắc</td>
+                        <td>quangdv26</td>
+                        <td>11/01/2023</td>
+                        <td>
+                            <div class="status__wrapper">
+                                <span class="circle circle--approved"></span>
+                                <span>Ban hành</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status__wrapper">
+                                <span class="circle circle--approved"></span>
+                                <span>Đã duyệt</span>
+                            </div>
+                        </td>
+                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Container end -->
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="record">
+                <span class="record-text">Bản ghi:</span>
+                <div class="record-total">
+                    10
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <span class="split"></span>
+                <div class="record-details">
+                    1-10 of 3 bản ghi
+                </div>
+            </div>
+            <div class="page">
+                <span class="split"></span>
+                <div class="page-details">
+                    1
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="page-total">
+                    of 50 Trang
+                </div>
+                <div class="page-icon">
+                    <div class="page-icon-left">
+                        <i class="fa-solid fa-caret-left"></i>
+                    </div>
+                    <div class="page-icon-right">
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
